@@ -9,6 +9,9 @@ button{
 
 button:hover {
   cursor: pointer;
+  background: #FFF;
+  transition: 0.3s ease-in-out;
+  color: black;
 }
 
 .wrapper{
@@ -21,10 +24,21 @@ button:hover {
   background-color: #FF9500;
   color: white;
 }
+.orange-btn:hover{
+  background: #FF9500;
+  transition: 0.3s ease-in-out;
+  color: black;
+}
 
 .gray-btn{
   background-color: #505050;
   color: white;
+}
+
+.top-btn{
+  background-color: #D4D4D2;
+  
+
 }
 
 .result{

@@ -62,9 +62,9 @@ export default function Calculator() {
         <div className="wrapper">
           <Box m={12} />
           <h1 className="result">{num}</h1>
-          <button onClick={clear}>AC</button>
-          <button onClick={changeSign}>+/-</button>
-          <button onClick={porcentage}>%</button>
+          <button className="top-btn" onClick={clear}>AC</button>
+          <button className="top-btn" onClick={changeSign}>+/-</button>
+          <button className="top-btn" onClick={porcentage}>%</button>
           <button className="orange-btn" onClick={operatorHandler} value="/">
             /
           </button>
